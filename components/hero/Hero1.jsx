@@ -5,7 +5,7 @@ const Hero1 = (props) => {
         <section className="flex items-center justify-center h-screen">
             <Container className={"pt-10 pb-8 lg:px-10 text-center"}>
                 <div className="grid items-center grid-cols-12 gap-10">
-                    <div className="col-span-12 bg-gray-400 lg:col-span-7 h-[30rem]">
+                    <div className="col-span-12 bg-gray-200 lg:col-span-7 h-[30rem]">
                         <figure><img className="w-auto" src="@@webRoot/assets/img/illustrations/i2.png"  alt="img" /></figure>
                     </div>
                     <div className="col-span-12 text-center lg:col-span-5 lg:text-start">
