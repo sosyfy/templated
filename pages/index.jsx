@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Container from './../components/Container';
 import Hero1 from './../components/hero/Hero1';
+import About1 from './../components/about/About1';
 
 
 const Home = () => {
@@ -10,9 +10,8 @@ const Home = () => {
         <title>hello guys</title>
       </Head>
       <main>
-       {/* <Container> */}
           <Hero1/>
-       {/* </Container> */}
+          <About1/>
       </main>
     </div>
   )
